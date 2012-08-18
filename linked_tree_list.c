@@ -229,7 +229,6 @@ int main() {
 
     /* Create an of value 1 to N where N is randomly chosen from 0...10 */
     int input_size = rand() % 11;
-    printf("input size: %d\n", input_size);
     int *test_input = (int *)malloc(input_size * sizeof(int));
     for (int i = 0; i < input_size; ++i) {
         test_input[i] = i + 1;
